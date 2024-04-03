@@ -1,0 +1,60 @@
+4.	git init - 
+5.	git remote add origin https://github.com/jovanoskas/SI_2024_lab1_173067.git
+6.	nano README.txt
+	git add README.txt
+	git commit -m "Initial commit"
+7.	git add SILab1Main.java SILab1_1.java SILab1_2.java
+	git commit -m "Add starter code"
+8.	git pull --all
+9-10.	git checkout -b bug1
+11.	nano SILab1_1.java
+	git add SILab1_1.java
+	git commit -m "Fix wrong condition in filterOddLengthStrings"
+9-12.	git checkout master
+	git checkout -b bug2
+13.	nano SILab1_2.java
+	git add SILab1_2.java
+	git commit -m "Fix wrong condition in makeBigStringFrom"
+14.	git checkout bug1
+15.	nano SILab1Main.java
+	git add SILab1Main.java
+	git commit -m "Call method filterOddLengthStrings in main class"
+16.	git checkout bug2
+17.	nano SILab1Main.java
+	git add SILab1Main.java
+	git commit -m "Call method makeBigStringFrom in main class"
+18.	git pull --all
+19.	git checkout master
+20.	git merge bug1
+21.	git push --all
+22.	git checkout bug2
+23.	git rebase master
+24.	git checkout master
+25.	git merge bug2
+-imase konflikt pri merge
+	error: Merging is not possible because you have unmerged files.
+	hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+	hint: as appropriate to mark resolution and make a commit.
+	fatal: Exiting because of an unresolved conflict.
+-resavanje na konfliktite, brisenje na 
+<<<<<<< HEAD
+// promena od edniot branch
+=======
+// promena od drugiot branch
+>>>>>>> 
+- //promenite od dveta branches ostaeni
+Fixing conflicts:
+	nano SILab1Main.java
+	git add SILab1Main.java
+	git commit -m "Fixing conflicts"
+	git rebase --continue
+	git checkout master
+	git merge bug2
+	git push --all
+	git push --force --all
+28. 	git log
+	nano log.txt
+	nano 173067.txt
+	git add log.txt 173067.txt
+	git commit -m "Final commit"
+	

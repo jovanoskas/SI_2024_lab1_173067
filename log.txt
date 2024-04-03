@@ -1,0 +1,60 @@
+$ git log
+commit 6915309bb968a774e77581afd9b03cd80da530d6 (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:44:41 2024 +0200
+
+    Fixing conflicts
+
+commit 358db2175c0435ce03dd729dd167698622c03624
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:35:37 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit ca5e13dd162e263aed7de1663d5878469fb1791e (origin/bug1, bug1)
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:37:27 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit beaa3133feef0853da29202f6f24d154a4dc000b
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:34:32 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit d78dac42a560a5ed825b74499188355795fd53a4
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:32:20 2024 +0200
+
+    Add starter code
+
+commit 3e5f4e465cc8dc00b1c0e942b95a7f04824d531c
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:31:03 2024 +0200
+:
+    Fix wrong condition in makeBigStringFrom
+
+commit ca5e13dd162e263aed7de1663d5878469fb1791e (origin/bug1, bug1)
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:37:27 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit beaa3133feef0853da29202f6f24d154a4dc000b
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:34:32 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit d78dac42a560a5ed825b74499188355795fd53a4
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:32:20 2024 +0200
+
+    Add starter code
+
+commit 3e5f4e465cc8dc00b1c0e942b95a7f04824d531c
+Author: Stefani Jovanoska <stefani.jovanoska@students.finki.ukim.mk>
+Date:   Wed Apr 3 23:31:03 2024 +0200
+
+    Initial commit
